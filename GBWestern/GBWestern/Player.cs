@@ -49,7 +49,7 @@ namespace GBWestern
             //idleL.SpriteSheet = Content.Load<Texture2D>("Textures\\cartIdleL");
             //idleR.SpriteSheet = Content.Load<Texture2D>("Textures\\cartIdleR");
             //runL.SpriteSheet = Content.Load<Texture2D>("Textures\\cartRunL");
-            //poorunR.SpriteSheet = Content.Load<Texture2D>("Textures\\cartRunR");
+            //runR.SpriteSheet = Content.Load<Texture2D>("Textures\\cartRunR");
         }
 
         public void Update(GamePadState gP, GameTime gT, KeyboardState kB)
