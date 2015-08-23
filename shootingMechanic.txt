@@ -1,0 +1,84 @@
+            //b0 = new Bullet(new Vector2(12, 3));
+            //b1 = new Bullet(new Vector2(21, 7));
+            //b2 = new Bullet(new Vector2(21, 17));
+            //b3 = new Bullet(new Vector2(12, 21));
+            //b4 = new Bullet(new Vector2(3, 17));
+            //b5 = new Bullet(new Vector2(3, 7));
+
+            //revolverPos = new Vector2(0, 0);
+            //revolverPos = Vector2.Transform(revolverPos, Matrix.Invert(cam.ViewMatrix));
+            //bV0 = b0.Pos;
+            //bV0 = Vector2.Transform(bV0, Matrix.Invert(cam.ViewMatrix));
+            //bV1 = b1.Pos;
+            //bV1 = Vector2.Transform(bV1, Matrix.Invert(cam.ViewMatrix));
+            //bV2 = b2.Pos;
+            //bV2 = Vector2.Transform(bV2, Matrix.Invert(cam.ViewMatrix));
+            //bV3 = b3.Pos;
+            //bV3 = Vector2.Transform(bV3, Matrix.Invert(cam.ViewMatrix));
+            //bV4 = b4.Pos;
+            //bV4 = Vector2.Transform(bV4, Matrix.Invert(cam.ViewMatrix));
+            //bV5 = b5.Pos;
+            //bV5 = Vector2.Transform(bV5, Matrix.Invert(cam.ViewMatrix));
+
+if (mS.LeftButton == ButtonState.Pressed && mPrev.LeftButton != ButtonState.Pressed)
+            {
+                if (bCount > 0)
+                {
+                    bCount--;
+                    Debug.WriteLine("Bang!" + " Rounds Left: " + bCount);
+                }
+                else
+                {
+                    Debug.WriteLine("OUT OF AMMO");
+                }
+            }
+
+if (mS.RightButton == ButtonState.Pressed && bCount == 0)
+            {
+                bCount = 6;
+                Debug.WriteLine("RELOAD");
+            }
+
+//spriteBatch.Draw(revolver, revolverPos, Color.White);
+            //cursor.Draw(spriteBatch, gameTime, mP);
+            //switch (bCount)
+            //{
+            //    case 0:
+            //        break;
+            //    case 1:
+            //        spriteBatch.Draw(b5.Texture, bV5, Color.White);
+            //        break;
+            //    case 2:
+            //        spriteBatch.Draw(b5.Texture, bV5, Color.White);
+            //        spriteBatch.Draw(b4.Texture, bV4, Color.White);
+            //        break;
+            //    case 3:
+            //        spriteBatch.Draw(b5.Texture, bV5, Color.White);
+            //        spriteBatch.Draw(b4.Texture, bV4, Color.White);
+            //        spriteBatch.Draw(b3.Texture, bV3, Color.White);
+            //        break;
+            //    case 4:
+            //        spriteBatch.Draw(b5.Texture, bV5, Color.White);
+            //        spriteBatch.Draw(b4.Texture, bV4, Color.White);
+            //        spriteBatch.Draw(b3.Texture, bV3, Color.White);
+            //        spriteBatch.Draw(b2.Texture, bV2, Color.White);
+            //        break;
+            //    case 5:
+            //        spriteBatch.Draw(b5.Texture, bV5, Color.White);
+            //        spriteBatch.Draw(b4.Texture, bV4, Color.White);
+            //        spriteBatch.Draw(b3.Texture, bV3, Color.White);
+            //        spriteBatch.Draw(b2.Texture, bV2, Color.White);
+            //        spriteBatch.Draw(b1.Texture, bV1, Color.White);
+            //        break;
+            //    case 6:
+            //        spriteBatch.Draw(b5.Texture, bV5, Color.White);
+            //        spriteBatch.Draw(b4.Texture, bV4, Color.White);
+            //        spriteBatch.Draw(b3.Texture, bV3, Color.White);
+            //        spriteBatch.Draw(b2.Texture, bV2, Color.White);
+            //        spriteBatch.Draw(b1.Texture, bV1, Color.White);
+            //        spriteBatch.Draw(b0.Texture, bV0, Color.White);
+            //        break;
+            //    default:
+            //        break;
+
+            //}

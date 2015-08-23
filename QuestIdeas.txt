@@ -1,0 +1,35 @@
+Quest ideas:
+
+Quest : Level
+
+!Fields:
+!- Name
+!- NPCs?
+- Enemies
+!- Objects?
+!- BG, Clouds + Pos'
+!- isComplete (bool)
+
+!CollectionQuest : Quest
+!- collectedCount
+!- collectedReq
+
+ShootingQuest : Quest
+!- Add in shooting mechanic
+- On the rails shooting? - Minecarts?
+!- noTargets
+!- targetsHit
+- score?
+- timeLimit?
+
+HeardingQuest: Quest
+- AI That runs away?
+- heardingZone
+- toHeard
+- noHearded
+- timeLimit?
+
+GamblingQuest : Quest
+- Really fucking hard to do??
+- I'd have to learn how to program a game with rules...
+- Guess I could do something like higher/lower and bets...
