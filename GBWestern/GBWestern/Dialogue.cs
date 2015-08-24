@@ -28,6 +28,8 @@ namespace GBWestern
             #region ladyChurch
             ladyChurch = new Dictionary<string, Message>();
             ladyChurch.Add("ladyChurch_1", new Message("ladyChurch_1", "I just love \ngoin' to church!"));
+            ladyChurch.Add("ladyChurch_2", new Message("ladyChurch_2", "Don't you just love\nadmiring..."));
+            ladyChurch.Add("ladyChurch_3", new Message("ladyChurch_3", "...the Lords Work?"));
             allDialogue.Add("ladyChurch", ladyChurch);
             #endregion
             #region manRock
