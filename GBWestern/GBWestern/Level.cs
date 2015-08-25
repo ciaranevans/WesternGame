@@ -34,7 +34,7 @@ namespace GBWestern
             background = Content.Load<Texture2D>("Textures\\" + name);
             clouds = Content.Load<Texture2D>("Textures\\clouds");
             textBox = Content.Load<Texture2D>("Textures\\dialogueBox");
-            font = Content.Load<SpriteFont>("Fonts\\NPCFont");
+            font = Content.Load<SpriteFont>("Fonts\\DialogueFont");
             foreach (KeyValuePair<string, NPC> npc in npcs)
             {
                 npc.Value.LoadContent(Content);

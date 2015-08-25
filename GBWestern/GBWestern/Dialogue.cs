@@ -58,16 +58,16 @@ namespace GBWestern
             #endregion
             #region manCactus
             manCactus = new Dictionary<string, Message>();
-            manCactus.Add("manCactus_1", new Message("manCactus_1", "Hola amigo!"));
+            manCactus.Add("manCactus_1", new Message("manCactus_1", "¡Hola amigo!"));
             manCactus.Add("manCactus_2", new Message("manCactus_2", "My Village is not\ntoo far from here!"));
-            manCactus.Add("manCactus_3", new Message("manCactus_3", "Maybe you can come\nsee it sometime?"));
+            manCactus.Add("manCactus_3", new Message("manCactus_3", "¿Maybe you can come\nsee it sometime?"));
             manCactus.Add("manCactus_4", new Message("manCactus_4", "B To accept\nWalk away to decline"));
             allDialogue.Add("manCactus", manCactus);
             #endregion
             #region manHouse
             manHouse = new Dictionary<string, Message>();
-            manHouse.Add("manHouse_1", new Message("manHouse_1", "Did Juan send you?"));
-            manHouse.Add("manHouse_2", new Message("manHouse_2", "Bueno!\nWelcome gringo!"));
+            manHouse.Add("manHouse_1", new Message("manHouse_1", "¿Did Juan send you?"));
+            manHouse.Add("manHouse_2", new Message("manHouse_2", "¡Bueno!\n¡Welcome gringo!"));
             manHouse.Add("manHouse_3", new Message("manHouse_3", "We have plenty to do,\nTake a look around"));
             allDialogue.Add("manHouse", manHouse);
             #endregion

@@ -71,7 +71,7 @@ namespace GBWestern
             questR.SpriteSheet = Content.Load<Texture2D>("Textures\\questR");
             button.SpriteSheet = Content.Load<Texture2D>("Textures\\buttonB");
             dialogueBox = Content.Load<Texture2D>("Textures\\dialogueBox");
-            font = Content.Load<SpriteFont>("Fonts\\NPCFont");
+            font = Content.Load<SpriteFont>("Fonts\\DialogueFont");
             #endregion
             #region NPC
             switch (type)

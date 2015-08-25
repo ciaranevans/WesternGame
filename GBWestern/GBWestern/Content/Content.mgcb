@@ -299,12 +299,6 @@
 /processorParam:TextureFormat=Color
 /build:Textures/buttonB.png
 
-#begin Fonts/NPCFont.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:TextureFormat=Compressed
-/build:Fonts/NPCFont.spritefont
-
 #begin Textures/cowIdleL.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -613,4 +607,10 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:TextureFormat=Color
 /build:Textures/area4.png
+
+#begin Fonts/DialogueFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:TextureFormat=Compressed
+/build:Fonts/DialogueFont.spritefont
 
