@@ -88,7 +88,7 @@ namespace GBWestern
                 current = idleR;
             }
 
-            //if (gP.Buttons.B == ButtonState.Pressed)
+            //if (gP.Buttons.B == ButtonState.Pressed || kB.IsKeyDown(Keys.B))
             //{
             //    Debug.WriteLine(playerPos.X);
             //}

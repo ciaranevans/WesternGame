@@ -13,7 +13,7 @@ namespace GBWestern
     public class NPCS
     {
         private Dictionary<string, Dictionary<string, NPC>> allNPCS;
-        private Dictionary<string, NPC> area1, area2, area3;
+        private Dictionary<string, NPC> area1, area2, area3, area5;
         private Dialogue dialogue = new Dialogue();
         private Dictionary<string, Dictionary<string, Message>> allDialogue;
 
@@ -28,6 +28,7 @@ namespace GBWestern
             area1.Add("manWindmill", new NPC("manWindmill", "Fred McGraw", "MAN", false, 0, new Vector2(280, 108), allDialogue["manWindmill"], null));
             area1.Add("manRock", new NPC("manRock", "Shady Fellow", "MAN", true, 3, new Vector2(193, 108),
                 allDialogue["manRock"], allDialogue["manRockQuestDone"]));
+            area1.Add("manCactus", new NPC("manCactus", "Juan Gonzalez", "MANMEXICAN", true, 5, new Vector2(471, 108), allDialogue["manCactus"], null));
             area1.Add("sheriffGarett", new NPC("sheriffGarett", "Sheriff Garett", "MAN", true, 4, new Vector2(570, 108),
                 allDialogue["sheriffGarett"], allDialogue["sheriffGarettQuestDone"]));
             area1.Add("ladyChurch", new NPC("ladyChurch", "Mary McGraw", "LADY", false, 0, new Vector2(387, 108), allDialogue["ladyChurch"], null));
@@ -49,6 +50,11 @@ namespace GBWestern
             area3 = new Dictionary<string, NPC>();
             //area3.Add("testQuestNPC", new NPC("testQuestNPC", "testQuestNPC", "MAN", true, 0, new Vector2(200, 108), allDialogue["testQuestNPC"]));
             allNPCS.Add("area3", area3);
+            #endregion
+            #region area5
+            area5 = new Dictionary<string, NPC>();
+            area5.Add("manHouse", new NPC("manHouse", "Carlos Morales", "MANMEXICAN", false, 0, new Vector2(60, 105), allDialogue["manHouse"], null));
+            allNPCS.Add("area5", area5);
             #endregion
             #endregion
         }

@@ -24,7 +24,7 @@ namespace GBWestern
         private Dictionary<string, Dictionary<string, Object>> allObjects;
         private Dictionary<string, Dictionary<string, NPC>> allNPCS;
         private Dictionary<string, Level> Levels;
-        private Level area1, area2;
+        private Level area1, area2, area5;
         private CollectionQuest area3;
         private ShootingQuest area4;
         private int index = 1;
@@ -63,10 +63,12 @@ namespace GBWestern
             area2 = new Level("area2", true, allNPCS["area2"]);
             area3 = new CollectionQuest("area3", false, allNPCS["area3"], allObjects["testQuestObjects"]);
             area4 = new ShootingQuest("area1", true, new Dictionary<string, NPC>(), allObjects["testShootingObjects"]);
+            area5 = new Level("area4", true, allNPCS["area5"]);
             Levels.Add("area1", area1);
             Levels.Add("area2", area2);
             Levels.Add("area3", area3);
             Levels.Add("area4", area4);
+            Levels.Add("area5", area5);
             #endregion
             player = new Player(new Vector2(41, 108));
             base.Initialize();

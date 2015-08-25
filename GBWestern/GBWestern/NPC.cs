@@ -104,6 +104,10 @@ namespace GBWestern
                     }
                     #endregion
                     break;
+                case "MANMEXICAN":
+                    idleL.SpriteSheet = Content.Load<Texture2D>("Textures\\manMexicanIdleL");
+                    idleR.SpriteSheet = Content.Load<Texture2D>("Textures\\manMexicanIdleR");
+                    break;
                 case "LADY":
                     idleL.SpriteSheet = Content.Load<Texture2D>("Textures\\ladyIdleL");
                     idleR.SpriteSheet = Content.Load<Texture2D>("Textures\\ladyIdleR");
@@ -201,7 +205,7 @@ namespace GBWestern
             }
             if (showPrompt)
             {
-                button.Draw(sB, gT, new Vector2(npcPos.X, npcPos.Y + 30));
+                button.Draw(sB, gT, new Vector2(npcPos.X, 138.0f));
             }
             if (talking)
             {
